@@ -1,0 +1,6 @@
+.container {
+  margin: 0 auto;
+  font-family: Roboto, sans-serif;
+  width: 960px;
+  box-sizing: border-box;
+}

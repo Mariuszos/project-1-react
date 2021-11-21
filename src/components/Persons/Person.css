@@ -1,0 +1,45 @@
+.person {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.person-image {
+  background-image: url(../../assets/img/man-6115452_1280.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-left: 30px;
+  margin-right: 10px;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
+
+.person-about {
+  width: 50vw;
+}
+
+.person-about h2 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.person:nth-of-type(even) {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.person:nth-of-type(even) .person-image {
+  background-image: url(../../assets/img/woman-3640935_1280.jpg);
+}
+
+.person:nth-of-type(even) h2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.person:nth-of-type(even) p {
+  text-align: right;
+}

@@ -1,0 +1,17 @@
+
+.socials {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 150px;
+  width: 10%;
+  background-color: #4e4e4e;
+}
+
+.insta {
+  font-size: 40px;
+}
+
+.facebook {
+  font-size: 40px;
+}

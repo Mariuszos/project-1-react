@@ -1,0 +1,17 @@
+.persons {
+  min-height: 100vh;
+  background: #f1f1f1;
+  color: #000000;
+}
+
+.persons h1 {
+  height: 20vh;
+  width: 386px;
+  margin-left: 80px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  display: flex;
+  align-items: center;
+  color: #152d41;
+}

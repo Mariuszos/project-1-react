@@ -1,0 +1,41 @@
+header {
+  height: 7vh;
+  background: #4e4e4e;
+  display: flex;
+  color: #ffffff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.nav {
+  display: flex;
+  width: 80%;
+  justify-content: flex-end;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 40%;
+	list-style: none;
+}
+
+.nav-link a {
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.contact {
+	cursor: not-allowed;
+}
